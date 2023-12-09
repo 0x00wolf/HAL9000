@@ -1,6 +1,5 @@
 # pip install openai
 import openai
-import os
 import sys
 from time import sleep
 from random import randint
