@@ -1,16 +1,14 @@
 # pip install openai
 import openai
-from time import sleep # if corny intros arent your thing you can delete this too.
+from time import sleep
+from random import randint
 
 
 client = openai.OpenAI(
-    api_key = "insertkeyhere" # Insert your ChatGPT API key here
-)
+    api_key = "INSERT_API_KEY") # Insert your ChatGPT API key here
 
 
 def corny_intro():
-    """if corny intros arent your thing copy lines 16 and 17 and paste them in 
-    place of line 25, and then delete this function"""
     print("\n" * 40 + "[*] HAL 9000 ~ performing startup checks")
     sleep(1)
     print('[*] HAL 9000 ~ neural network initialized."')
@@ -24,6 +22,15 @@ def corny_intro():
     return msgs
 
 
+def funny_robot():
+    i = randint(1, 1000)
+    if i == 187:
+        sleep(1)
+        print("\nI'm sorry Dave. I'm afraid I can't do that.")
+        sleep(5)
+        print("\nSorry, Dave. That was a joke.")
+
+
 msgs = corny_intro()
 while input != "quit()":
     message = input("> ")
@@ -34,4 +41,5 @@ while input != "quit()":
     # reply = completion.choices[0].message
     reply = response.choices[0].message.content
     msgs.append({"role": "assistant", "content": reply})
+    funny_robot()
     print(f"\n{reply}\n")
