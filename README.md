@@ -30,4 +30,4 @@ Some examples would be:
 
 ## Logging
 
-By default all of your conversations will be logged into the logs file. The logs folder and the log-number.txt file are necessary for the program to run. Change the code if you don't want to log your conversations!
+By default all of your conversations will be logged into the logs directory. The logs directory and the log-number.txt file are necessary for the program to run. Change the code if you don't want to log your conversations!
