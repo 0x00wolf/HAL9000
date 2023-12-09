@@ -38,7 +38,6 @@ while input != "quit()":
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=msgs)
-    # reply = completion.choices[0].message
     reply = response.choices[0].message.content
     msgs.append({"role": "assistant", "content": reply})
     funny_robot()
