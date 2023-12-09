@@ -9,7 +9,7 @@ import readline
 
 
 client = openai.OpenAI(
-    api_key="insertapikey")  # Insert your ChatGPT API key here
+    api_key="INSERT_API_KEY")  # Insert your ChatGPT API key here
 
 
 def corny_intro():
@@ -45,7 +45,7 @@ def init_log():
     new_log = f'./logs/log{log_number}.txt'
     with open(new_log, 'x') as f:
         pass
-    return  new_log
+    return new_log
 
 
 def log_conversation(_logfile, messages):
@@ -57,7 +57,7 @@ if __name__ == '__main__':
     try:
         logfile = init_log()
         msgs = corny_intro()
-        while input != "quit()":
+        while input != "quit":
             message = input("> ")
             msgs.append({"role": "user", "content": message})
             response = client.chat.completions.create(
@@ -68,6 +68,6 @@ if __name__ == '__main__':
             funny_robot()
             print(f"\n{reply}\n")
             log_conversation(logfile, msgs)
-    except Exception as e:
-        print(e)
+    except KeyboardInterrupt:
+        print("\nGoodbye, Dave.")
         sys.exit()
