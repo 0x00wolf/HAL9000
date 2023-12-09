@@ -20,11 +20,11 @@ To quit the program enter: ctrl+c
 
 Some examples would be:
 
-An email marketing expert.
+`An email marketing expert.`
 
-An expert Python programmer who specializes in Flask.
+`An expert Python programmer who specializes in Flask.`
 
-You are a sarcastic hacker.
+`You are a sarcastic hacker.`
 
 ## Logging
 
