@@ -36,6 +36,11 @@ def funny_robot():
         sleep(2)
 
 
+def goodbye_hal():
+    print("Goodbye, Dave.")
+    sys.exit()
+
+
 def init_log():
     with open('./logs/log-number.txt', 'r') as f:
         log_number = int(f.read())
@@ -68,6 +73,6 @@ if __name__ == '__main__':
             funny_robot()
             print(f"\n{reply}\n")
             log_conversation(logfile, msgs)
+        goodbye_hal()
     except KeyboardInterrupt:
-        print("\nGoodbye, Dave.")
-        sys.exit()
+        goodbye_hal()
