@@ -26,9 +26,9 @@ def funny_robot():
     i = randint(1, 1000)
     if i == 187:
         sleep(1)
-        print("\nI'm sorry Dave. I'm afraid I can't do that.")
+        print("\nI'm sorry, Dave. I'm afraid I can't do that.")
         sleep(5)
-        print("\nSorry, Dave. That was a joke.")
+        print("\nI'm sorry, Dave. That was a joke.")
 
 
 msgs = corny_intro()
