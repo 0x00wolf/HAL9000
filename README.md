@@ -12,6 +12,7 @@ cd ./HAL9000
 # Copy and paste your API key into the designated variable in hal9000.py
 python3 ./hal9000.py
 ```
+To quit the program enter: ctrl+c
 
 ## Defining your ai assistant
 
@@ -24,3 +25,7 @@ An email marketing expert.
 An expert Python programmer who specializes in Flask.
 
 You are a sarcastic hacker.
+
+## Logging
+
+By default all of your conversations will be logged into the logs file. The logs folder and the log-number.txt file are necessary for the program to run. Change the code if you don't want to use them or log your conversations.
