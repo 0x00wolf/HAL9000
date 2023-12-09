@@ -2,7 +2,7 @@
 
 ## Requirements
 
-HAL9000 is written in Python. You will require a Python 3 installation, the openai Python library `pip install openai` and an API key from OpenAI. To generate a key and for detailed instructions on how to install Python and OpenAI's library, please visit: https://platform.openai.com/docs/quickstart?context=python
+HAL9000 is written in Python. You will require a Python 3 installation, the openai Python library and an API key from OpenAI with some tokens on your account. To generate a key and for detailed instructions on how to get started with OpenAI, and install Python with OpenAI's library, please visit: https://platform.openai.com/docs/quickstart?context=python
 
 ## Usage
 
