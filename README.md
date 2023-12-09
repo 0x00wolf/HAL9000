@@ -13,6 +13,7 @@ cd ./HAL9000
 python3 ./hal9000.py
 ```
 To quit the program enter: ctrl+c
+Or input: 'quit' + enter.
 
 ## Defining your ai assistant
 
