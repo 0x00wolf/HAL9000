@@ -97,7 +97,9 @@ with open('log1.txt', 'r') as f:
 Now you can print the log entries one at a time.
 
 `print(dict[0]['content']) # display the system prompt`
+
 `print(dict[1]['content']) # display your first query to the AI`
+
 `print(dict[2]['content']) # display the AIs first response`
 
 And so on.
