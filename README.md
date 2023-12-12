@@ -12,7 +12,7 @@ Mustvlad's ChatGPT-System-Prompts: https://github.com/mustvlad/ChatGPT-System-Pr
 
 ## Really consider testing this one out for yourself.
 
-This is hands down the most useful application I have ever made for myself. Sure, you can use the OpenAI app to gain access to ChatGPT. You could also set it up through Siri. You can use the unofficial app to gain access. I really like the idea of keeping it simple. With less than 100 lines of code, I can gain direct access to the world's most powerful AIs directly in the console on my desktop. No telemetry, beyond what OpenAI is loggin on their end. Maximum convenience, with my conversations being logged locally. 
+This is hands down the most useful application I have ever made for myself. Sure, you can use the OpenAI app to gain access to ChatGPT. You could also set it up through Siri. You can use the unofficial app to gain access. I really like the idea of keeping it simple. With less than 100 lines of code, I can gain direct access to the world's most powerful AIs directly in the console on my desktop. No telemetry, beyond what OpenAI is logging on their end. Maximum convenience, with all conversations being logged locally. 
 
 A close friend of mine said this recently, "I think ChatGPT is probably the most profound technology that has happened since the internet, and we're just figuring out the very beginning of what can be done with it. Think the internet but in 1993, that's where we are now with LLMs, but they're going to change the world as profoundly as the internet did."
 
