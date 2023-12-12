@@ -9,11 +9,13 @@ HAL9000 is written in Python. You will require a Python 3 installation, the open
 
 ## Built in System Prompts:
 
+`"Who do you need HAL9000 to be today?"`
+
 This project has been updated to include a fork of the Mustvlad's popular repository of premade system prompts. https://github.com/mustvlad/ChatGPT-System-Prompts
 
 Prompts can be preselected via adding an argument at runtime, or they can be selected via an options menu during runtime when HAL9000 asks you to define their personality.
 
-System prompts are an incredibly valuable tool. I suggest you attempt to be as creative with these as possible.
+System prompts are an incredibly valuable tool. I suggest you attempt to be as creative with them as possible.
 
 ## Usage
 
@@ -51,15 +53,9 @@ Or input: 'quit' + enter.
 
 ## Defining your ai assistant
 
-`"Who do you need HAL9000 to be today?"`
 
-Some examples would be:
 
-`An email marketing expert.`
 
-`An expert Python programmer who specializes in Flask.`
-
-`You are a sarcastic hacker.`
 
 ## Logging
 
