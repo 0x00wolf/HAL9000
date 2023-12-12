@@ -7,15 +7,17 @@ HAL 9000 lets you generate a terminal based AI assistant on your desktop to have
 
 HAL9000 is written in Python. You will require a Python 3 installation, the openai Python library and an API key from OpenAI with some tokens on your account. For detailed instructions on how to get started with OpenAI, generate an API key, install Python, and install OpenAI's Python library, please visit: https://platform.openai.com/docs/quickstart?context=python
 
-## Built in System Prompts:
+## Customizing the nature of your AI assistant manually or with built in System Prompts:
 
 `"Who do you need HAL9000 to be today?"`
 
-This project has been updated to include a fork of the Mustvlad's popular repository of premade system prompts. https://github.com/mustvlad/ChatGPT-System-Prompts
+System prompts are an incredibly valuable tool. I suggest you attempt to be as creative with them as possible. These allow you to format output, or create specific personalities that will shape the responses your AI assistant generates.
+
+This project has been updated to include a fork of the Mustvlad's popular repository of premade system prompts, allowing for you to have a plethora of options to choose from. https://github.com/mustvlad/ChatGPT-System-Prompts
 
 Prompts can be preselected via adding an argument at runtime, or they can be selected via an options menu during runtime when HAL9000 asks you to define their personality.
 
-System prompts are an incredibly valuable tool. I suggest you attempt to be as creative with them as possible.
+
 
 ## Usage
 
@@ -50,11 +52,6 @@ If launched in this manner, HAL9000 won't ask you to define a personality, and i
 **To quit the program** enter: ctrl+c
 
 Or input: 'quit' + enter.
-
-## Defining your ai assistant
-
-
-
 
 
 ## Logging
